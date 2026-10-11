@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ac: #0f766e;
+    --r: 16px;
+    --ir: 10px;
+    --fs: 15px;
+    --cp: 16px;
+    --ff: "Noto Sans Arabic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--ff);
+    font-size: var(--fs);
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+@media print {
+  nav, .np {
+    display: none !important;
+  }
+}
+

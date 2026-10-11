@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="50%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Full Bleed Background for Maskable Icon -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Content scaled within safe-zone (inner 80% circle) -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <rect x="96" y="148" width="320" height="216" rx="36" fill="#ffffff" fill-opacity="0.95"/>
+    <path d="M 96 190 Q 256 220 416 190 L 416 184 C 416 164 400 148 380 148 L 132 148 C 112 148 96 164 96 184 Z" fill="#0f766e"/>
+    <circle cx="340" cy="256" r="32" fill="url(#gold)"/>
+    <circle cx="340" cy="256" r="24" fill="#fef3c7" fill-opacity="0.3"/>
+    <text x="340" y="266" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#78350f" text-anchor="middle">د</text>
+    
+    <polyline points="144,300 200,260 250,280 300,220" fill="none" stroke="#0d9488" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="144" cy="300" r="8" fill="#0f766e"/>
+    <circle cx="200" cy="260" r="8" fill="#0f766e"/>
+    <circle cx="250" cy="280" r="8" fill="#0f766e"/>
+    <polygon points="295,206 314,222 292,228" fill="#0d9488"/>
+    
+    <path d="M 120 90 Q 120 120 150 120 Q 120 120 120 150 Q 120 120 90 120 Q 120 120 120 90 Z" fill="#fbbf24"/>
+  </g>
+</svg>
